@@ -3,7 +3,7 @@ by Francisco Zambrano Bigiarini (frzambra@gmail.com)
 
 This repo is the final project for the course Getting and Cleanning Data giving throw Coursera by Johns Hopkins University.
 
-The file 'run_Analysis.R', has the script for the creation of a tidy data set which make the mergin of train and test data set were are included in the 'Data' folder. Full description of the data set also are in this 'Data' folder.
+The file 'run_Analysis.R' that it is in the folder 'script', has the script for the creation of a tidy data set which make the mergin of train and test data set were are included in the 'Data' folder. Full description of the data set also are in this 'Data' folder.
 
 The script works as follow:
   1. First load the train data set (Data/train/x_train.txt) to the 'xtrain' variable, this data has 561 measurement for 6 activities and 21 subject, the dimension of the data is 7352 x 561.
