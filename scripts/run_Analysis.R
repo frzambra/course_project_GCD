@@ -74,11 +74,6 @@ dataTest_Sm <- cbind(DataSet="Test",dataTest_Sm)
 #Merge test and train data sets
 dataMerged <- rbind(dataTest_Sm,dataTrain_Sm)
 
-
-#Averaged of each variable for each activity and subject
-dataMerged_S <- dataMerged %>% group_by(subject,activity) %>% 
-  summarise(Avg=mean(value))
-
-write.table(dataMerged,'finalDataSummary.txt',row.name=FALSE)
+write.table(dataMerged,'final_TidyData.txt',row.name=FALSE)
 
 
