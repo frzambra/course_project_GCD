@@ -91,5 +91,5 @@ Variable :
     -  fBBAJM_std -> fBodyBodyAccJerkMag-std()
     -  fBBGM_std -> fBodyBodyGyroMag-std()
     -  fBBGJM_std -> fBodyBodyGyroJerkMag-std()
-  - Value : numeric variable, it has the value of the measurement for each observation, the values are scaled between -1 and 1
+ - Value : numeric variable, it has the value of the measurement for each observation, the values are scaled between -1 and 1
   
